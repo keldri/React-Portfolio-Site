@@ -1,0 +1,40 @@
+%button {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  background-color: transparent;
+  vertical-align: middle;
+  font-family: $button__font-family;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+@mixin button__primary {
+  @extend %button;
+  border: $button__primary__border;
+  color: $button__primary-color;
+  transition: all .2s ease-in-out;
+
+  @include bp($bp-medium) {
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  @include hover {
+    color: $button__primary__hover-color;
+    background-color: $button__primary__hover-background-color;
+    border: $button__primary__hover__border;
+  }
+}
+
+@mixin button--transparent {
+  appearance: none;
+  background: none;
+  border: 0;
+}

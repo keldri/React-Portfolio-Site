@@ -1,0 +1,63 @@
+/*doc
+---
+title: Headings
+name: 1headings
+category: Base Styles - Typography
+---
+```html_example_table
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<br>
+<p class="h1">Heading 1</p>
+<p class="h2">Heading 2</p>
+<p class="h3">Heading 3</p>
+<p class="h4">Heading 4</p>
+<p class="h5">Heading 5</p>
+```
+*/
+
+h1,
+.h1 {
+  @include h1;
+}
+
+h2,
+.h2 {
+  @include h2;
+}
+
+h3,
+.h3 {
+  @include h3;
+}
+
+h4,
+.h4 {
+  @include h4;
+}
+
+h5,
+.h5 {
+  @include h5;
+}
+
+ body,
+ .bodytext {
+  @include bodytext;
+}
+/*doc
+---
+title: Body Text
+name: 2body
+category: Base Styles - Typography
+---
+```html_example_table
+
+<p>Fanny pack salvia kogi <a href="#">Carles tousled</a> taxidermy. You probably haven't heard of them asymmetrical pop-up deep v gentrify raw denim tousled, blog kale chips wolf messenger bag. Bushwick lumbersexual chillwave Schlitz, tousled typewriter meh flexitarian wayfarers beard scenester. Bushwick farm-to-table Banksy asymmetrical, kale chips YOLO iPhone heirloom crucifix yr meggings occupy Austin cred. Vinyl listicle before they sold out actually. Mixtape Kickstarter McSweeney's, tousled sartorial trust fund meh occupy Pinterest meggings four dollar toast Marfa salvia. Put a bird on it Williamsburg meh flannel, Tumblr lomo PBR hella street art direct trade salvia American Apparel gentrify cold-pressed disrupt.</p>
+<p>Blog meditation chillwave gentrify <a href="#">ethical flannel</a> cold-pressed. Etsy cardigan Carles, next level craft beer yr typewriter ugh shabby chic organic lo-fi cornhole kitsch cold-pressed. High Life bitters polaroid single-origin coffee. Intelligentsia semiotics tilde, banh mi bespoke pickled biodiesel DIY cliche forage typewriter tattooed irony single-origin coffee American Apparel. Organic scenester High Life Vice 90's meggings. Austin chillwave Blue Bottle gentrify selvage, pug trust fund. 8-bit 90's banjo beard, sriracha tousled occupy squid scenester umami.</p>
+<p>|; ²³~ @`´ ©«» ¤¼× {} abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ ! "§ $%& /() =? * '<> |; ²³~ @`´ ©«» ¤¼× {} abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ ! "§ $%& /() =? * '<> |; ²³~ @`´ ©«» ¤¼× {}abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ ! "§ $%& /().</p>
+```
+*/

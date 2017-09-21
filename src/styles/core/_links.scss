@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: $link__primary__hover-color;
+  border-bottom: 2px solid;
+  transition: color .2s ease-in-out;
+
+  @include hover {
+    color: $link__primary__hover-color;
+  }
+}

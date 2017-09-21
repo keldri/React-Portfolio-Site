@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	background-color: $c-page-color;
+}
+
+p {
+  margin: 20px 0;
+
+  &:last-child,
+  &--no-margin {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	height: 100vh;
+}
+
+.page__wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 45px;
+
+	@include bp($bp-medium) {
+		flex-direction: row;
+		height: 100vh;
+	}
+}
+
+.wrapper {
+	padding: 0 20px;
+	
+	@include bp($bp-medium) {
+		flex-basis: 70%;
+		overflow: scroll;
+	}
+}
+.dashboard__wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}

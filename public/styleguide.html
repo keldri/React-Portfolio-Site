@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Styleguide</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="styleguide">
+      <!--type-->
+      <h3> Typography </h3>
+      <section class="panels">
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <p>Im a paragraph</p>
+      <!--end type-->
+      <!--links-->
+      <h3> Links </h3>
+      <section class="panels">
+        <a href="#">I'm a regular old link</a>
+        <a href="#" class="link--cta">View All Case Studies</a>
+        </div>
+      </section>
+      <!--end links-->
+      <h3> Buttons </h3>
+      <section class="panels">
+        <div style="min-height: 100px; padding: 20px; background-color: #f58220; text-align: center;">
+          <button class="button--primary">Primary button</button>
+          <a href="#" class="button--primary">Go to the homepage</a>
+        </div>
+       
+        <button class="button--secondary">secondary button</button>
+        <a href="#" class="button--secondary">go to the homepage</a>
+
+        <button class="button--tertiary">Tertiary button</button>
+        <a href="#" class="button--tertiary">go to the homepage</a>
+      </section>
+      <!--end buttons-->
+      <!--forms-->
+        <h3> Forms </h3>
+      <section class="panels">
+        <form>
+          <div class="form-group">
+            <div class="custom-input">
+              <input id="name" name="name" aria-describedby="name-format" required aria-required=”true” title="Full Name">
+              <label class="label required" for="name">Full Name <span>(required)</span></label>
+              <div class="validation-advice" id="advice-required-entry-billing:lastname" style="">This is a required field.</div>
+            </div>
+            <div class="custom-input">
+              <input type="email" name="email" class="required" id="email" title="Email" required>
+              <label for="email" class="required label">Email <span>(required)</span></label>
+            </div>
+            <div class="custom-input">
+              <input type="text" name="company" class="" id="company" title="Company">
+              <label for="company" class="label">Company <span>(optional)</span></label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="custom-input custom-input--textarea">
+              <textarea name="message"></textarea>
+              <label for="message" class="label label--multi-line">Would you like to leave us a message(optional) </label>
+            </div>
+          </div>
+           <div class="form-group">
+            <div class="input-group">
+              <div class="custom-input custom-input--radio">
+                <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1">
+                <label for="radio-choice-1">Choice 1</label>
+              </div>
+              <div class="custom-input custom-input--radio">
+                <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2">
+                <label for="radio-choice-2">Choice 2</label>
+              </div>
+              <div class="custom-input custom-input--checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Checkbox</label>
+              </div>
+              <div class="custom-input custom-input--checkbox">
+                <input type="checkbox" name="checkbox2" id="checkbox2">
+                <label for="checkbox2">Another checkbox</label>
+              </div>
+            </div>
+            </div>
+            <div class="form-group">
+              <div class="custom-input custom-input--select">
+                <select>
+                  <option value="" disabled selected hidden>Choose your option</option>
+                  <option>Dos</option>
+                  <option>Tres</option>
+                  <option>Cuatro</option>
+                  <option>Cinco - A very long option name to test wrapping</option>
+                </select>
+              </div>
+            </div>
+        </form>
+      </section>
+      <!--end forms-->
+      <!-- cards -->
+      <h3> Panels </h3>
+      <section class="panels">
+        <article class="panel panel--service">
+          <div class="panel__image">
+            <img src="https://placehold.it/612x266" />
+          </div>
+          <div class="panel__container">
+            <header>
+              <time class="panel__time">October 17, 2016</time>
+              <h2 class="panel__title">What Is "Consumerization"?</h2>
+              <h3 class="panel__subtitle">The Single Most Important Element for Increasing B2B Lead Gen and Sales</h3>
+            </header>
+            <p class="panel__text">A spate of articles recently have expounded on the “consumerization” of all things business: the consumerization of sales, of IT, and of business-to-business marketing most prominently... </p>
+            <a href="" class="more-link button--secondary">Read More</a>
+            <footer>
+              <ul class="tags tags--blog">
+                <li>Digital Marketing</li>
+                <li>Ecommerce</li>
+                <li>News</li>
+              </ul>
+            </footer>
+          </div>
+        </article>
+      <!-- end cards -->
+
+      </section>
+    </div>
+  </section>
+</div>
+</body>
+</html>

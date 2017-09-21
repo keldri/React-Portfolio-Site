@@ -1,1 +1,20 @@
-@import '_app.scss';
+// Variables
+@import '_var.scss';
+
+// Mixins
+@import 'mixins/_breakpoints.scss';
+@import 'mixins/_hover.scss';
+@import 'mixins/_typography.scss';
+@import 'mixins/_buttons.scss';
+
+// Base Styles
+@import 'core/_reset.scss';
+@import 'core/_typography.scss';
+@import 'core/_buttons.scss';
+@import 'core/_links.scss';
+@import 'core/_forms.scss';
+@import 'core/_layout.scss';
+
+// Modules
+@import 'modules/_projectCards.scss';
+@import 'modules/_header.scss';

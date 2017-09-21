@@ -1,0 +1,127 @@
+.project--wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 0;
+  padding-bottom: 40px;
+  padding-left: 0;
+  list-style: none;
+  background-color: #fff;
+  
+  @include bp($bp-medium) {
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 180px;
+  }
+}
+
+.project__wrapper {
+  > ul {
+      @include bp($bp-small) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+}
+
+.project-card {
+  align-self: flex-start;
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: $c-white;
+
+  &__container {
+     @include bp($bp-xsmall) {
+      flex-basis: calc(50% - 5px);
+      margin-right: 5px;
+    }
+
+    @include bp($bp-medium) {
+      flex-basis: calc(33.33% - 10px);
+      margin-right: 10px;
+    }
+
+     @include bp($bp-xlarge) {
+      flex-basis: calc(25% - 10px);
+    }
+
+    &:nth-child(2) {
+      @include bp($bp-medium, max-width) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(3) {
+      @include bp($bp-large, max-width) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(4) {
+      @include bp($bp-xlarge) {
+        margin-right: 0;
+      }
+    }
+
+  }
+
+
+
+
+  &__details {
+    padding: 20px;
+    background-color: $project-card__background-color;
+  }
+
+  &__image {
+    display: block;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__taglist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+
+    li {
+      padding-right: 5px;
+    }
+  }
+
+  &__tag {
+    color: $tag-color;
+    line-height: 1.0em;
+    font-size: $font-size__base - 2;
+    line-height: 1.8em;
+    text-decoration: none;
+    letter-spacing: .075px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+
+    @include bp($bp-medium) {
+      font-size: 14px;
+    }
+}
+
+  &__title {
+    @include h4;
+    margin-bottom: 15px;
+    border-bottom: none;
+  }
+
+  &__description {
+    padding-bottom: 20px;
+  }
+}

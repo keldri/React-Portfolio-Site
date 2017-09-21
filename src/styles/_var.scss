@@ -1,0 +1,82 @@
+/*===================Variables====================*/
+// Border Radius
+
+// Transition
+
+
+
+// =============================================
+// Primary Break Points
+// =============================================
+
+// These should be used with the bp (max-width, xx) mixin
+// where a min-width is used, remember to +1 to break correctly.
+
+  $bp-xsmall: 479px;
+  $bp-small: 599px;
+  $bp-medium: 767px;
+  $bp-large: 1024px;
+  $bp-xlarge: 1199px;
+
+// =============================================
+// Brand Colors
+// =============================================
+  $c-white: #fff;
+  $c-black: #000;
+  $c-error: #ab010e;
+  $c-light-steelblue: #b5c9d0;
+  $c-light-slategrey: #7691a0;
+  $c-white-smoke: #fcf9f8;
+  $c-dim-grey: #5b5c6d;
+  $c-light-grey: #acacb5;
+  $c-azure: #eafef8;
+  $c-gainsboro: #d4e2ea;
+
+
+  $primary__color: $c-dim-grey;
+  $secondary__color: $c-light-slategrey;
+
+// Base Colors
+$c-text: $c-dim-grey;
+$c-border: $secondary__color;
+$c-page-color: $c-white-smoke;
+
+// Font Family
+
+$font-family__base: "Barlow", sans-serif;
+$font-family__secondary: $font-family__base;
+$font-family__tertiary: 'Satisfy', cursive;
+// Body Text
+$font-size__base: 16px;
+$font-weight__base: 500;
+$line-height__base: 1.375;
+$font-size__desktop: 18px;
+$font-weight__desktop: $font-weight__base;
+$line-height__desktop: 1.28;
+
+// Headings
+$font-family__headings: $font-family__base;
+$headings__color: $c-text;
+
+// Links
+$link__primary-color: $c-dim-grey;
+$link__primary__hover-color: $primary__color;
+
+// Used for tags
+
+$button__font-family: $font-family__base;
+$button__primary-color:  $primary__color;
+$button__primary__border: $button__primary-color;
+$button__primary__hover-color:  $c-white;
+$button__primary__hover-background-color: $secondary__color;
+$button__primary__hover__border: 4px solid $button__primary__hover-background-color;
+
+$tag-color: $primary__color;
+
+
+// Forms
+
+// Cards
+$project-card__color: $c-text;
+$project-card__background-color: $c-white;
+$project-card__border: 1px solid $c-border;

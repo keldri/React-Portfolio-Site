@@ -5,7 +5,8 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
- let projectData = [
+
+let projectData = [
         {
           "id": 1,
           "title": "Mackenzie",

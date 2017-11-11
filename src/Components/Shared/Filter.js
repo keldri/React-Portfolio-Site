@@ -25,8 +25,7 @@ class Filter extends Component {
     });
 
     return(
-      <div className={this.props.id}>
-      <label> Filter By: </label>
+      <div className="custom-input custom-input--select">
         <select value={this.props.value} onChange={this.props.onChange} className="form-control" >
           {options.map(option => {      
             return <option value={option} key={option}>{option}</option>

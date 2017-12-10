@@ -1,0 +1,10 @@
+.singleProject {
+	&__container {
+		display: flex;
+		flex-direction: column;
+
+		@include bp($bp-medium) {
+			flex-direction: row;
+		}
+	}
+}

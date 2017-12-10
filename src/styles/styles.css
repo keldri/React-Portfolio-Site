@@ -486,7 +486,8 @@ img {
   width: 100%; }
 
 main {
-  height: 100vh; }
+  height: 100vh;
+  margin-top: 50px; }
 
 .page__wrapper {
   display: flex;

@@ -14,6 +14,7 @@ let projectData = [
           "img": "https://bb2.mysd.us/media/gene-cms/b/b/bb2-hp-monday_mono.jpg",
           "tags": ["react", "javascript", "sass"],
           "url": "https://www.mackenzie.com",
+          "overview": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar aMauris blandit aliquet elit, eget tincidunt nibh pulvinar a"
         },
         {
           "id": 2,

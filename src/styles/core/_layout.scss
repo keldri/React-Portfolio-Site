@@ -1,3 +1,5 @@
+$header-height: 50px;
+
 body {
 	margin: 0;
 	background-color: $c-page-color;
@@ -22,6 +24,7 @@ img {
 
 main {
 	height: 100vh;
+	margin-top: $header-height; // ensure main component is never hidden under header
 }
 
 .page__wrapper {
